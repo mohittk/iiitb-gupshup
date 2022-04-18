@@ -9,6 +9,8 @@ app.use(express.static('build'));
 app.use=(cors());
 
 
+
+
 app.get('/', (req, res) =>{
     res.sendFile(path.join(__dirname,'index.html'))
 })
