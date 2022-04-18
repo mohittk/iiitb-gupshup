@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import Chat from "./Chats";
 import Navbar from '../comp/Navbar'
 import { Link } from 'react-router-dom';
-import iiitb from '../pages/iiitb.png'
+import iiitb from './iiitb.png'
 
 
 
