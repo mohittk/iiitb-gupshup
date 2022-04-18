@@ -5,19 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"cd clientside && npm run build",
-    "install-client":"cd clientside && npm install",
-    "heroku-postbuild":"npm run install-client && npm run build",
-    "start": "node server.js",
-    "client":"cd clientside && npm start"    
+    "build": "cd clientside && npm run build",
+    "install-client": "cd clientside && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node index.js",
+    "client": "cd clientside && npm start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^6.4.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
+    "node-modules": "^1.0.1",
     "nodemon": "^2.0.15",
-    "socket.io": "^4.4.0"
+    "socket.io": "^4.4.1"
   }
 }
