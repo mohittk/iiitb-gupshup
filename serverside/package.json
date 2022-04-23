@@ -8,7 +8,7 @@
     "build": "cd clientside && npm run build",
     "install-client": "cd clientside && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "start": "node index.js",
+    "start": "node serverside/index.js",
     "client": "cd clientside && npm start"
   },
   "author": "",
