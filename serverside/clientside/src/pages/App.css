@@ -152,7 +152,10 @@ body {
 
 .message-meta #author {
   margin-left: 10px;
+  color: white;
+  padding: 5px;
   font-weight: bold;
+  background-color: black;
 }
 
 .chat-window .chat-body .message .message-meta {
